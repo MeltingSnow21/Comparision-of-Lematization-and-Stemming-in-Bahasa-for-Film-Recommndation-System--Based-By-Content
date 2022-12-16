@@ -5,6 +5,7 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 import streamlit as st 
+from time import sleep
 from streamlit_option_menu import option_menu
 from Tubes_NLP import Hasil_Stemm, Hasil_Lema, Validator, passing_final
 
@@ -54,8 +55,8 @@ if selected == "Tentang Kami" :
 
     st.write("##")
     st.info(":rocket: Kunjungi Github Pada [Tautan Berikut](https://github.com/MeltingSnow21/Comparision-of-Lematization-and-Stemming-in-Bahasa-for-Film-Recommndation-System--Based-By-Content)")
-    st.snow()
-
+    with st.spinner('Wait for it...'):
+        sleep(2)
     with st.container():
         st.write("---")
         st.header("Tentang Kelompok")
@@ -94,6 +95,8 @@ if selected == "Pembahasan" :
     
     y = passing_final()
     y2 = y[['MAE_Lema','MAE_Stem']].copy()
+    with st.spinner('Wait for it...'):
+        sleep(2)
     
 
     #grafik satu
@@ -162,6 +165,8 @@ elif  selected == "Rekomendasi" :
     if Tombol :
         
         A = Validator(title)
+        with st.spinner('Wait for it...'):
+            sleep(2)
         if A : 
             with st.container():
                 st.write("---")
