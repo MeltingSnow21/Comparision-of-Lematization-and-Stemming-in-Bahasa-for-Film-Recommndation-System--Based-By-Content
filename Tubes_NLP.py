@@ -3,7 +3,8 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 import nltk
-nltk.download('stopwords')
+nltk.download('wordnet', "Comparision-of-Lematization-and-Stemming-in-Bahasa-for-Film-Recommndation-System--Based-By-Content/nltk/")
+nltk.download('stopwords', "Comparision-of-Lematization-and-Stemming-in-Bahasa-for-Film-Recommndation-System--Based-By-Content/nltk/")
 from sklearn.feature_extraction import text
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
