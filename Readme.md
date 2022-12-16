@@ -1,10 +1,13 @@
-Keterangan
+A comparison of Lematization and Stemming using Bag of Word and Cosine Similarity for Film Recommendation Model
 
-Untuk yang mengerjakan laporan BAB 4, bisa melakukan analisis dari code "TubesNLP(withPre-P).ipynb". hasilnya ternyata stemming lebih baik sebesar 0.3 kalau ga salah. analisisnya ada di hasil indeks yang berbeda. dianalisis isi dari bag of wordnya untuk dibandingin satu sama lain. 
+Instruksi Running Model Jupiter Notebook 
+1. Download file zip
+2. Ekstrak file zip
+3. Instal semua kebutuhan pada file requirements.txt
+4. Buka file dengan jupyter notebook untuk menjalankan model ipynb ("TubesNLP.ipynb")
 
-BAB 2
-- Sistem Rekomendasi
-- Conntet Base recommendation
-- Data Preprocessing
-- Potter Stemmer
-- Word Net Lematisasi
+Instruksi Running Streamlit App
+1. Download file zip
+2. Ekstrak file zip
+3. Instal semua kebutuhan pada file requirements.txt
+4. Buka file app.py dan jalankan menggunakan command streamlit run app.py
