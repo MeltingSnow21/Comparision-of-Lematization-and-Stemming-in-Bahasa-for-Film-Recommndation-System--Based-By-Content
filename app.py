@@ -136,7 +136,7 @@ if selected == "Pembahasan" :
     st.subheader("Kesimpulan")
     
     st.write("""Dengan menggunakan 50 data pengujian, diperoleh perbedaan antara hasil MAE Lematisasi dan MAE Stemming
-             sebesar 0.3, Dengan nilai MAE Lematisasi lebih besar ketimbang MAE Stemming. Perbedaan ini
+             sebesar 0.2, Dengan nilai MAE Lematisasi lebih besar ketimbang MAE Stemming. Perbedaan ini
              menyimpulkan bahwa menggunakan metode Bag of Word, hasil dari Stemming memberikan hasil yang lebih baik
              ketimbang Lematisasi.
              """)
