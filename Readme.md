@@ -1,13 +1,13 @@
-A comparison of Lematization and Stemming using Bag of Word and Cosine Similarity for Film Recommendation Model
+A comparison of Lemmatization and Stemming using Bag of Word and Cosine Similarity for Film Recommendation Model
 
-Instruksi Running Model Jupiter Notebook 
-1. Download file zip
-2. Ekstrak file zip
-3. Instal semua kebutuhan pada file requirements.txt
-4. Buka file dengan jupyter notebook untuk menjalankan model ipynb ("TubesNLP.ipynb")
+Jupiter Notebook Model Running Instructions 
+1. Download the zip file
+2. Extract the zip file
+3. Install all the requirements in the requirements.txt file
+4. Open the file with jupyter notebook to run ipynb model ("TubesNLP.ipynb")
 
-Instruksi Running Streamlit App
-1. Download file zip
-2. Ekstrak file zip
-3. Instal semua kebutuhan pada file requirements.txt
-4. Buka file app.py dan jalankan menggunakan command streamlit run app.py
+Instructions for Running Streamlit App 
+1. Download the zip file
+2. Extract the zip file
+3. Install all the requirements in the requirements.txt file
+4. Open the app.py file and run it using the command streamlit run app.py
